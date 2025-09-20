@@ -2,7 +2,7 @@
     "name": "react-berry-admin-template",
     "version": "0.0.4",
     "private": true,
-    "homepage": "https://samiulehsan.github.io/samiulehsan.github.io",
+    "homepage": "https://samiulehsan.github.io/samiulehsan.github.io/",
     "build": {
         "yarn": "v14.0.0,v16.0.0",
         "npm": "v14.0.0,v16.0.0"
@@ -42,7 +42,7 @@
     "scripts": {
         "start": "react-scripts start",
         "predeploy":"npm run build",
-        "deploy":"master -d build",
+        "deploy":"gh-pages -d build",
         "build": "react-scripts build",
         "test": "react-scripts test --passWithNoTests",
         "eject": "react-scripts eject"
