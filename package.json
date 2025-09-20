@@ -6,7 +6,7 @@
     "build": {
         "yarn": "v14.0.0,v16.0.0",
         "npm": "v14.0.0,v16.0.0"
-    },    
+    },
     "dependencies": {
         "@emotion/react": "^11.4.0",
         "@emotion/styled": "^11.3.0",
@@ -62,6 +62,7 @@
     },
     "devDependencies": {
         "@material-ui/codemod": "^5.0.0-alpha.35",
+        "gh-pages": "^6.3.0",
         "sass": "^1.32.11"
     }
 }
