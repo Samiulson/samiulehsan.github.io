@@ -41,6 +41,8 @@
     },
     "scripts": {
         "start": "react-scripts start",
+        "predeploy":"npm run build",
+        "deploy":"master -d build",
         "build": "react-scripts build",
         "test": "react-scripts test --passWithNoTests",
         "eject": "react-scripts eject"
@@ -62,7 +64,7 @@
     },
     "devDependencies": {
         "@material-ui/codemod": "^5.0.0-alpha.35",
-        "gh-pages": "^6.3.0",
+        "masters": "^6.3.0",
         "sass": "^1.32.11"
     }
 }
